@@ -1,7 +1,7 @@
 阅读这篇笔记你需要了解安卓的数据绑定框架**databinding**
 首先贴上校长看到的感觉写得最好的两篇 介绍**databinding**的文章：
-[1.CornorLin：Android Data Binding 系列(一) -- 详细介绍与使用](http://connorlin.github.io/2016/07/02/Android-Data-Binding-%E7%B3%BB%E5%88%97-%E4%B8%80-%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%E4%B8%8E%E4%BD%BF%E7%94%A8/)
-[2.QQ音乐技术团队：Android DataBinding 数据绑定](http://chuansong.me/n/848619251632)
+[1. CornorLin：Android Data Binding 系列(一) -- 详细介绍与使用](http://connorlin.github.io/2016/07/02/Android-Data-Binding-%E7%B3%BB%E5%88%97-%E4%B8%80-%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%E4%B8%8E%E4%BD%BF%E7%94%A8/)
+[2. QQ音乐技术团队：Android DataBinding 数据绑定](http://chuansong.me/n/848619251632)
 
 
 不管作为一名安卓还是android程序猿，总是少不了一直没完没了的重复制造adapter，viewholder，就像
