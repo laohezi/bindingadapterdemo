@@ -25,10 +25,7 @@ public class BindingAdapter extends RecyclerView.Adapter<BindingAdapter.BindingH
     public void setItems(List<BindingAdapterItem> items) {
         this.items = items;
     }
-
     List<BindingAdapterItem> items = new ArrayList<>();
-
-
 
     /**
      * @return 返回的是adapter的view
@@ -38,7 +35,6 @@ public class BindingAdapter extends RecyclerView.Adapter<BindingAdapter.BindingH
         ViewDataBinding binding = DataBindingUtil.inflate(LayoutInflater.from(parent.getContext()), viewType, parent, false);
         return new BindingHolder(binding);
     }
-
     /*
     * 数据绑定
     * */
@@ -46,13 +42,10 @@ public class BindingAdapter extends RecyclerView.Adapter<BindingAdapter.BindingH
     public void onBindViewHolder(BindingHolder holder, int position) {
         holder.bindData(items.get(position));
     }
-
-
     @Override
     public int getItemCount() {
         return items.size();
     }
-
     @Override
     public int getItemViewType(int position) {
         return items.get(position).getViewType();
@@ -71,6 +64,7 @@ public class BindingAdapter extends RecyclerView.Adapter<BindingAdapter.BindingH
         }
 
         public void bindData(BindingAdapterItem item) {
+            //
             binding.setVariable(BR.item,item);
         }
 

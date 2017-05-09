@@ -1,4 +1,4 @@
-package com.example.m.Item;
+package com.example.m.bean;
 
 import android.databinding.BaseObservable;
 
@@ -9,11 +9,12 @@ import com.example.m.bindingadapter.bindingadapter.BindingAdapterItem;
  * Created by m on 2017/5/6.
  */
 
-public class ImageItem extends BaseObservable implements BindingAdapterItem {
+public class Image2Bean extends BaseObservable implements BindingAdapterItem {
 
     @Override
     public int getViewType() {
-        return R.layout.adpter_image;
+        return R.layout.adapter_2image;
     }
 
 }
+

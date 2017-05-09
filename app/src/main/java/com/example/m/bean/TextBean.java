@@ -1,4 +1,4 @@
-package com.example.m.Item;
+package com.example.m.bean;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
@@ -11,13 +11,13 @@ import com.example.m.bindingadapter.bindingadapter.BindingAdapterItem;
  * Created by m on 2017/5/6.
  */
 
-public class TextItem extends BaseObservable implements BindingAdapterItem {
+public class TextBean extends BaseObservable implements BindingAdapterItem {
     @Override
     public int getViewType() {
         return R.layout.adapter_text;
     }
 
-    public TextItem(String text) {
+    public TextBean(String text) {
         this.text = text;
     }
 
