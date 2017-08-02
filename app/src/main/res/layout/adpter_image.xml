@@ -5,7 +5,11 @@
 
         <variable
             name="item"
-            type="com.example.m.Item.ImageItem"/>
+            type="com.example.m.bean.ImageBean"/>
+
+        <variable
+            name="items"
+            type="java.util.List"/>
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
